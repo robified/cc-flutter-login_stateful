@@ -7,5 +7,8 @@ class LoginScreen extends StatefulWidget {
 }
 
 class LoginScreenState extends State<LoginScreen> {
-  Widget build() {}
+  Widget build(context) {
+    return Container(
+        margin: EdgeInsets.all(20.0), child: Text('Login Screen!!!'));
+  }
 }
